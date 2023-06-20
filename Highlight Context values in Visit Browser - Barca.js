@@ -2,8 +2,6 @@
 // @name         Highlight Context values in Visit Browser - Barca
 // @namespace    http://tampermonkey.net/
 // @version      0.2
-// @downloadURL  https://drive.google.com/uc?export=download&id=1I7dbV0lDn69UkskWLcIh18xNWQ6QexOn
-// @updateURL    https://drive.google.com/uc?export=download&id=1I7dbV0lDn69UkskWLcIh18xNWQ6QexOn
 // @description  Provide Visual highlight for demos of Visit Browser so custom dimensions are clearly displayed.
 // @author       Brad Phillips
 // @match        https://platform.cloud.coveo.com/admin*
@@ -21,13 +19,13 @@
 // ** For your Coveo org, ADD ORG NAME below ** //
 // ******************************************** //
 const MYORG = "barcagroupproductionkwvdy6lp";
-// *************************************************************************** //
-// ** For your Coveo org, ADD comma separated DIMENSION values to contextLabels below ** //
-// **   For example in a Workplace scenario, if you have two custom Dimensions showing...
-// **      as Context in your Visit Browser, you would populate:
-// **   const CONTEXTLABELS = ["Employee Department", "Tenure With Company"];
-// **      NOTE: You can add other standard Visit Browser labels such as "Number of Results" if desired.
-// *************************************************************************** //
+// ******************************************************************************************************** //
+// ** For your Coveo org, ADD comma separated DIMENSION values to contextLabels below                    ** //
+// **   For example in a Workplace scenario, if you have two custom Dimensions showing...                ** //
+// **      as Context in your Visit Browser, you would populate:                                         ** //
+// **   const CONTEXTLABELS = ["Employee Department", "Tenure With Company"];                            ** //
+// **      NOTE: You can add other standard Visit Browser labels such as "Number of Results" if desired. ** //
+// ******************************************************************************************************** //
 const CONTEXTLABELS = ["Interests", "Products Owned"];
 //
 let style = "";
