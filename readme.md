@@ -21,7 +21,7 @@ This Tampermonkey script provides a simple method to highlight (in color) certai
 2. Open Tampermonkey in your Browser
 3. Choose "Utilities" tab.
 4. Paste the following URL into "Import from URL" and choose "Install".
-     ![https://raw.githubusercontent.com/bradphi/tampermonkey-Highlight-Context-values-in-Coveo-Visit-Browser/main/Highlight%20Context%20values%20in%20Visit%20Browser%20-%20Barca.js] 
+     [https://raw.githubusercontent.com/bradphi/tampermonkey-Highlight-Context-values-in-Coveo-Visit-Browser/main/Highlight%20Context%20values%20in%20Visit%20Browser%20-%20Barca.js] 
    
 5. Optionally modify the 2 constant values as described below.
 6. Test on your Coveo Admin Browser's Visit Browser.
